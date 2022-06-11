@@ -1,0 +1,6 @@
+[Unit]
+Description=Log battery capacity
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/batcaplog
